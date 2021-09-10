@@ -16,7 +16,7 @@ import Contact from "./pages/Contact";
 import Support from "./pages/Support";
 function App() {
   return (
-    <Router>
+    <Router basename="/Kirsten-Larry">
 			<Layout>
 				<Switch>
 					<Route path='/' exact>
