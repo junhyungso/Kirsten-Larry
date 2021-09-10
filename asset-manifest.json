@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Kisten-Larry/static/css/main.5727c648.chunk.css",
+    "main.js": "/Kisten-Larry/static/js/main.0fd0b349.chunk.js",
+    "main.js.map": "/Kisten-Larry/static/js/main.0fd0b349.chunk.js.map",
+    "runtime-main.js": "/Kisten-Larry/static/js/runtime-main.e5a7dc12.js",
+    "runtime-main.js.map": "/Kisten-Larry/static/js/runtime-main.e5a7dc12.js.map",
+    "static/js/2.dcd8eea0.chunk.js": "/Kisten-Larry/static/js/2.dcd8eea0.chunk.js",
+    "static/js/2.dcd8eea0.chunk.js.map": "/Kisten-Larry/static/js/2.dcd8eea0.chunk.js.map",
+    "index.html": "/Kisten-Larry/index.html",
+    "static/css/main.5727c648.chunk.css.map": "/Kisten-Larry/static/css/main.5727c648.chunk.css.map",
+    "static/js/2.dcd8eea0.chunk.js.LICENSE.txt": "/Kisten-Larry/static/js/2.dcd8eea0.chunk.js.LICENSE.txt",
+    "static/media/Donor Compliance Form - Light Nastro (1)-1.225ea043.png": "/Kisten-Larry/static/media/Donor Compliance Form - Light Nastro (1)-1.225ea043.png",
+    "static/media/Donor Compliance Form - Light Nastro (1).fb09090e.pdf": "/Kisten-Larry/static/media/Donor Compliance Form - Light Nastro (1).fb09090e.pdf",
+    "static/media/Klight Photo (2).8179b2fa.jpg": "/Kisten-Larry/static/media/Klight Photo (2).8179b2fa.jpg",
+    "static/media/Larry Nastro (4).00c2ca09.jpg": "/Kisten-Larry/static/media/Larry Nastro (4).00c2ca09.jpg",
+    "static/media/Mail.b4b9c092.jpg": "/Kisten-Larry/static/media/Mail.b4b9c092.jpg",
+    "static/media/maskss.8db22619.png": "/Kisten-Larry/static/media/maskss.8db22619.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5a7dc12.js",
+    "static/js/2.dcd8eea0.chunk.js",
+    "static/css/main.5727c648.chunk.css",
+    "static/js/main.0fd0b349.chunk.js"
+  ]
+}
