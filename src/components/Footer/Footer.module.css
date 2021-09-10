@@ -1,0 +1,96 @@
+.container {
+	margin-top: 7rem;
+	background-color: #fde394;
+	width: 100%;
+}
+.formgroup {
+	position: relative;
+	padding: 1rem;
+}
+.signupform {
+	display: block;
+	border: 2px solid black;
+	/* background-color: ; */
+	margin: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25rem;
+}
+.formcontrol {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.75rem;
+	text-align: center;
+	background: #004a00;
+	color: #ffffff;
+	border-radius: 2px;
+	text-decoration: none;
+	/* background-image: url('../../image/paypal.png');
+	background-size: 100%; */
+}
+.button:hover {
+	background: #fed966;
+}
+
+.donationbutton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.75rem;
+	text-align: center;
+	background: #004a00;
+	color: #ffffff;
+	border-radius: 2px;
+	text-decoration: none;
+	width: 25rem;
+	/* background-image: url('../../image/paypal.png');
+	background-size: 100%; */
+}
+.donationbutton:hover {
+	background: #fed966;
+}
+
+.mailer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 200px;
+	margin-top: 4rem;
+
+}
+
+.row {
+  display: flex;
+	padding-top: 2rem;
+}
+
+.column {
+  width: 33%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.column2 {
+  width: 33%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.column3 {
+  width: 33%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.centertext {
+	text-align: center;
+	margin: 0;
+}

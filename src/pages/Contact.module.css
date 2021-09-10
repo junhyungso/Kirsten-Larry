@@ -1,0 +1,108 @@
+.submit-button {
+	width: 100%;
+	background: #004a00;
+	color: #ffffff;
+}
+.header-background {
+	background-color: #004a00;
+}
+.background {
+	background-color: #004a00;
+}
+
+.mailer {
+	width: 55%;
+	position: relative;
+	left: 205px;
+}
+.center {
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 320px;
+	right: 110px;
+}
+.column {
+	float: left;
+	width: 45%;
+	padding: 5px;
+}
+.column2 {
+	float: right;
+	width: 45%;
+	padding: 5px;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+
+}
+.border-top {
+	border: none;
+	height: 2px;
+	color: #333;
+	background-color: #333;
+}
+.Donate-button {
+	display: block;
+	width: 100%;
+	padding: 0.75rem;
+	background: #004a00;
+	color: #ffffff;
+	border-radius: 2px;
+	cursor: pointer;
+	margin: auto 200px auto auto;
+}
+#signup_form_full {
+	display: block;
+	border: 2px solid black;
+	background-color: #b6ff00;
+	margin: 15px auto 30px auto;
+}
+.formgroup {
+	width: 98%;
+	position: relative;
+	left: 1%;
+}
+h3 {
+	text-align: center;
+	color: #333;
+	margin: 15px auto auto auto;
+}
+
+.form1{
+	margin-left: 25rem;
+	margin-right: 25rem;
+	text-align: center;
+	border-style: solid;
+	margin-bottom: 5rem;
+}
+.form2{
+	margin-left: 25rem;
+	margin-right: 25rem;
+	text-align: center;
+	border-style: solid;
+	margin-top: 5rem;
+}
+.centertext{
+	text-align: center;
+}
+
+.button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.75rem;
+	text-align: center;
+	background: #004a00;
+	color: #ffffff;
+	border-radius: 2px;
+	text-decoration: none;
+}
+.button:hover {
+	background: #fed966;
+}
+.formelem {
+	padding: 0.3rem;
+}
