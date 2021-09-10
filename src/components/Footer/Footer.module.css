@@ -56,7 +56,10 @@
 .donationbutton:hover {
 	background: #fed966;
 }
-
+.textlink {
+	text-decoration: none;
+	color: white;
+}
 .mailer {
 	display: block;
 	margin-left: auto;

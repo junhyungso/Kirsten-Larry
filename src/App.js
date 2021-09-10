@@ -7,7 +7,6 @@ import {
 
 import MainPage from './pages/MainPage';
 import Layout from "./layout/Layout";
-import NotFound from './pages/NotFound';
 import About from "./pages/About";
 import Issues from "./pages/Issues";
 import PropertyTaxes from './components/Property/PropertyTaxes';
@@ -16,7 +15,7 @@ import Contact from "./pages/Contact";
 import Support from "./pages/Support";
 function App() {
   return (
-    <Router basename="/Kirsten-Larry">
+    <Router basename={process.env.PUBLIC_URL}>
 			<Layout>
 				<Switch>
 					<Route path='/' exact>

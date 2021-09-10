@@ -12,9 +12,12 @@ const Footer = () => {
 				<div className={classes.column}>
 						<div>
 								<button className={classes.donationbutton}>
-										<h2>
-												Quick Donation / $
-										</h2>
+									<a href="https://paypal.me/lightandnastrobtboe?locale.x=en_US" target="_blank" rel="noreferrer">
+										<h2 className={classes.textlink}>
+													Quick Donation / $
+											</h2>
+									</a>
+
 								</button>
 						</div>
 						<div className={classes.signupform}>
