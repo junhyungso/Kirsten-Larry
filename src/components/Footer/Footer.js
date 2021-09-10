@@ -13,7 +13,7 @@ const Footer = () => {
 						<div>
 								<button className={classes.donationbutton}>
 										<h2>
-												Quick Donation
+												Quick Donation / $
 										</h2>
 								</button>
 						</div>
