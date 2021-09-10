@@ -1,7 +1,8 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+	Redirect
 } from "react-router-dom";
 
 import MainPage from './pages/MainPage';
@@ -43,7 +44,7 @@ function App() {
 							<Masks />
 						</Route>
 						<Route path='*'>
-							<NotFound />
+							<Redirect to="/" />
 						</Route>
 				</Switch>
 			</Layout>
