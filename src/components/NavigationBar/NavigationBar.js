@@ -8,7 +8,7 @@ const NavigationBar = () => {
 
 		<header className={classes.header}>
       <NavLink to="/" className={classes.logo}>
-        Light Nastro
+        Light {'&'} Nastro
       </NavLink>
       <nav className={classes.nav}>
         <ul>

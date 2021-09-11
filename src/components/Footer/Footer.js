@@ -1,11 +1,32 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { useHistory } from 'react-router';
 import { Link } from 'react-router-dom';
-
+import axios from '../../axios';
 import classes from './Footer.module.css';
 
 import Mail from '../../image/Mail.jpg';
 
 const Footer = () => {
+	const [email, setEmail] = useState('');
+  const history = useHistory();
+
+	const emailChangedHandler = (event) => {
+		console.log(event.target.value);
+		setEmail(event.target.value);
+	}
+	const formSubmitHandler = (event) => {
+		event.preventDefault();
+		console.log(email,'done')
+		const emailObject = {
+			email: email
+		}
+		axios.post("/emails.json", emailObject)
+		.then((res) => {
+			console.log(res);
+			history.push("/");
+		})
+		.catch((err) => console.log(err));
+	}
 	return (
 		<div className={classes.container}>
 		<div className={classes.row}>
@@ -14,7 +35,7 @@ const Footer = () => {
 								<button className={classes.donationbutton}>
 									<a href="https://paypal.me/lightandnastrobtboe?locale.x=en_US" target="_blank" rel="noreferrer">
 										<h2 className={classes.textlink}>
-													Quick Donation / $
+													Quick Donation (PayPal) / $
 											</h2>
 									</a>
 
@@ -22,24 +43,23 @@ const Footer = () => {
 						</div>
 						<div className={classes.signupform}>
 								<div className={classes.formgroup}>
-										<form id="signup-form">
+										<form id="signup-form" onSubmit={formSubmitHandler}>
 												<h3 className={classes.centertext}>
 														Sign Up for Updates
 												</h3>
 												<hr />
-												<label id="email-label" for="email"></label>
+												<label id="email-label"></label>
 												<input type="email"
 															 name="email"
 															 id="email"
 															 className={classes.formcontrol}
 															 placeholder="Email"
+															 onChange={emailChangedHandler}
 															 required />
-										</form>
-								</div>
-								<div className={classes.formgroup}>
-										<button type="submit" id="submit" className={classes.button}>
+											<button type="submit" id="submit" className={classes.button}>
 												Submit
-										</button>
+											</button>
+										</form>
 								</div>
 						</div>
 				</div>

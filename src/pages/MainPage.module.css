@@ -33,8 +33,27 @@
 	color: #ffffff;
 	border-radius: 2px;
 	text-decoration: none;
+	width: 20rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 .aboutbutton:hover {
+	background: #fed966;
+}
+.submitbutton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.75rem;
+	text-align: center;
+	background: #004a00;
+	color: #ffffff;
+	border-radius: 2px;
+	text-decoration: none;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.submitbutton:hover {
 	background: #fed966;
 }
 .formgroup {
@@ -44,7 +63,6 @@
 .signupform {
 	display: block;
 	border: 2px solid black;
-	/* background-color: ; */
 	margin: 2rem auto;
 	width: 30%
 }

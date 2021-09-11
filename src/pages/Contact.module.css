@@ -60,6 +60,45 @@
 	background-color: #b6ff00;
 	margin: 15px auto 30px auto;
 }
+.volunteerbutton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.75rem;
+	text-align: center;
+	background: rgb(151, 1, 151);
+	color: #ffffff;
+	border-radius: 2px;
+	text-decoration: none;
+	width: 25rem;
+	border-radius: 10px;
+}
+.volunteerbutton:hover {
+	background: #fed966;
+}
+.contactbutton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.75rem;
+	text-align: center;
+	background: #004a00;
+	color: #ffffff;
+	border-radius: 2px;
+	text-decoration: none;
+	width: 25rem;
+	border-radius: 10px;
+}
+.contactbutton:hover {
+	background: #fed966;
+}
+.textlink {
+	text-decoration: none;
+	color: white;
+}
+.buttondiv{
+	padding: 1rem;
+}
 .formgroup {
 	width: 98%;
 	position: relative;

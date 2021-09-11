@@ -1,4 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useHistory } from 'react-router';
+
+import axios from '../axios';
 
 import classes from './MainPage.module.css';
 
@@ -11,6 +14,28 @@ const MainPage = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0)
 	});
+
+	
+	const [email, setEmail] = useState('');
+  const history = useHistory();
+
+	const emailChangedHandler = (event) => {
+		console.log(event.target.value);
+		setEmail(event.target.value);
+	}
+	const formSubmitHandler = (event) => {
+		event.preventDefault();
+		console.log(email,'done')
+		const emailObject = {
+			email: email
+		}
+		axios.post("/emails.json", emailObject)
+		.then((res) => {
+			console.log(res);
+			history.push("/");
+		})
+		.catch((err) => console.log(err));
+	}
 
 	return (
 		<>
@@ -29,13 +54,13 @@ const MainPage = () => {
 		<div>
 			<Link to='/about'>
 				<button className={classes.aboutbutton}>
-					Learn More About Us 
+					<h2>Learn More About Us</h2> 
 				</button>
 			</Link>
 		</div>
 		{/* <button className={classes.aboutbutton}>Learn More About Us</button> */}
 		<div>
-			<form id="signup-form" className={classes.signupform}>
+			<form id="signup-form" className={classes.signupform} onSubmit={formSubmitHandler}>
 					<div id="signup_title" className={classes.formgroup}>
 							<h2 className={classes.centertext}>
 									Sign Up to Stay Connected.
@@ -45,16 +70,15 @@ const MainPage = () => {
 							</div>
 					</div>
 					<div>
-							<label class="inside" id="email-label" for="email"></label>
+							<label id="email-label" ></label>
 							<input type="email"
 										name="email"
 										id="email"
 										className={classes.formcontrol}
 										placeholder="Enter your email"
+										onChange={emailChangedHandler}
 										required />
-					</div>
-					<div className={classes.formgroup}>
-							<button type="submit" id="submit" className={classes.aboutbutton}>
+							<button type="submit" id="submit" className={classes.submitbutton}>
 									Submit
 							</button>
 					</div>
