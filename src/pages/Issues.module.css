@@ -38,6 +38,7 @@
 	width: 500px;
 	display: block;
 	margin: auto auto;
+	padding: 1rem;
 }
 
 @media screen and (max-width: 800px) {
