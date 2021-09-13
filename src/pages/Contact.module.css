@@ -70,7 +70,6 @@
 	color: #ffffff;
 	border-radius: 2px;
 	text-decoration: none;
-	width: 25rem;
 	border-radius: 10px;
 }
 .volunteerbutton:hover {
@@ -86,12 +85,43 @@
 	color: #ffffff;
 	border-radius: 2px;
 	text-decoration: none;
-	width: 25rem;
+	/* width: 25rem; */
 	border-radius: 10px;
 }
 .contactbutton:hover {
 	background: #fed966;
 }
+@media screen and (min-width: 800px) {
+	.contactbutton {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0.75rem;
+		text-align: center;
+		background: #004a00;
+		color: #ffffff;
+		border-radius: 2px;
+		text-decoration: none;
+		width: 25rem;
+		border-radius: 10px;
+	}
+
+	.volunteerbutton {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0.75rem;
+		text-align: center;
+		background: rgb(151, 1, 151);
+		color: #ffffff;
+		border-radius: 2px;
+		text-decoration: none;
+		width: 25rem;
+		border-radius: 10px;
+	}
+}
+
+
 .textlink {
 	text-decoration: none;
 	color: white;
@@ -110,20 +140,6 @@ h3 {
 	margin: 15px auto auto auto;
 }
 
-.form1{
-	margin-left: 25rem;
-	margin-right: 25rem;
-	text-align: center;
-	border-style: solid;
-	margin-bottom: 5rem;
-}
-.form2{
-	margin-left: 25rem;
-	margin-right: 25rem;
-	text-align: center;
-	border-style: solid;
-	margin-top: 5rem;
-}
 .centertext{
 	text-align: center;
 }

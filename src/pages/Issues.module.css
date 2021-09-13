@@ -1,38 +1,51 @@
 .row {
   display: flex;
-	margin-left: 5rem;
-	margin-right: 5rem;
+	flex-direction: row;
+	flex-wrap: wrap;
 	margin-top: 1rem;
 	border-style: solid;
 	border-color: black;
 }
+@media screen and (min-width: 800px) {
+	.row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-left: 5rem;
+		margin-right: 5rem;
+		margin-top: 1rem;
+		border-style: solid;
+		border-color: black;
+	}
+}
 
 .column {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-	padding: 1rem;
-	height: 10rem;
+	display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 
 }
 .column2 {
-	width: 70%;
+	/* width: 70%; */
+	display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 	padding: 5px;
-	height: 10rem;
+}
+.img {
+	width: 500px;
+	display: block;
+	margin: auto auto;
 }
 
-
-	.row::after {
-			content: "";
-			clear: both;
-			display: table;
+@media screen and (max-width: 800px) {
+	.img {
+		width: 300px;
+		display: block;
+		margin: auto auto;
 	}
-.Ind-issue {
-	display: block;
-	border: 3px solid black;
-	background-color: #b6ff00;
-	width: 800px;
 }
 .center {
 	text-align: center;
@@ -44,4 +57,11 @@
 .textlink {
 	color: black;
 	text-decoration: none;
+}
+
+.titletext {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 0;
 }

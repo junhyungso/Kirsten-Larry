@@ -38,19 +38,19 @@ const MainPage = () => {
 	}
 
 	return (
-		<>
+		<div className={classes.container}>
 			<div className={classes.headertext}>
 				<h1>Invested, Unified, <em>Qualified</em>.</h1>
 				<h1>For Bernards Children</h1>
 			</div>
-			<section className={classes.row}>
-				<div className={classes.column}>
-						<img className={classes.img} src={KlightPhoto} alt="klight" />
-				</div>
-				<div className={classes.column2}>
-						<img className={classes.img} src={LarryPhoto} alt="larry" />
-				</div>
-		</section>
+			<div className={classes.row}>
+					<div className={classes.column}>
+							<img className={classes.img} src={KlightPhoto} alt="klight" />
+					</div>
+					<div className={classes.column2}>
+							<img className={classes.img} src={LarryPhoto} alt="larry" />
+					</div>
+		</div>
 		<div>
 			<Link to='/about'>
 				<button className={classes.aboutbutton}>
@@ -59,32 +59,35 @@ const MainPage = () => {
 			</Link>
 		</div>
 		{/* <button className={classes.aboutbutton}>Learn More About Us</button> */}
-		<div>
-			<form id="signup-form" className={classes.signupform} onSubmit={formSubmitHandler}>
-					<div id="signup_title" className={classes.formgroup}>
-							<h2 className={classes.centertext}>
-									Sign Up to Stay Connected.
-							</h2>
-							<div>
-									<hr />
-							</div>
-					</div>
-					<div>
-							<label id="email-label" ></label>
-							<input type="email"
-										name="email"
-										id="email"
-										className={classes.formcontrol}
-										placeholder="Enter your email"
-										onChange={emailChangedHandler}
-										required />
-							<button type="submit" id="submit" className={classes.submitbutton}>
-									Submit
-							</button>
-					</div>
-			</form>
+		<div className={classes.row}>
+			<div className={classes.signupform} >
+				<form id="signup-form" onSubmit={formSubmitHandler}>
+						<div id="signup_title" className={classes.formgroup}>
+								<h2 className={classes.centertext}>
+										Sign Up to Stay Connected.
+								</h2>
+								<div>
+										<hr />
+								</div>
+						</div>
+						<div>
+								<label id="email-label" ></label>
+								<input type="email"
+											name="email"
+											id="email"
+											className={classes.formcontrol}
+											placeholder="Enter your email"
+											onChange={emailChangedHandler}
+											required />
+								<button type="submit" id="submit" className={classes.submitbutton}>
+										Submit
+								</button>
+						</div>
+				</form>
+			</div>
 		</div>
-		</>
+		
+		</div>
 	);
 }
 

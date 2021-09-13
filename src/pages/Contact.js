@@ -22,11 +22,11 @@ const Contact = () => {
 			</div>
 			<div className={classes.buttondiv}>
 					<a href="https://forms.gle/jmxmQPeZw3Dnf9Wp9" target="_blank" rel="noreferrer">
-					<button className={classes.contactbutton}>
-						<h2 className={classes.textlink}>
-									Contact Us
-							</h2>
-					</button>
+						<button className={classes.contactbutton}>
+							<h2 className={classes.textlink}>
+										Contact Us
+								</h2>
+						</button>
 					</a>
 
 			</div>

@@ -5,6 +5,8 @@ import axios from '../../axios';
 import classes from './Footer.module.css';
 
 import Mail from '../../image/Mail.jpg';
+import KlightPhoto from '../../image/Klight Photo (2).jpg';
+import LarryPhoto from '../../image/Larry Nastro (4).jpg';
 
 const Footer = () => {
 	const [email, setEmail] = useState('');
@@ -69,9 +71,12 @@ const Footer = () => {
 						</Link>
 				</div>
 				<div className={classes.column3}>
-					
-				</div>
-		</div>
+					<div className={classes.row}>
+						<img className={classes.img} src={KlightPhoto} alt="klight" />
+						<img className={classes.img} src={LarryPhoto} alt="larry" />			
+					</div>
+					</div>
+			</div>
 		<div>
 				<p className={classes.centertext}>Kirstenlightforbtboe@gmail.com</p>
 		</div>
