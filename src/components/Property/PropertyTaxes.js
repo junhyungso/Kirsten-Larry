@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import classes from './PropertyTaxes.module.css';
 
-import property from '../../image/property.png';
+import fiscalresponsibility from '../../image/fiscalresponsibility.png';
 
 const PropertyTaxes = () => {
 
@@ -14,11 +14,11 @@ const PropertyTaxes = () => {
     <div>
         <div>
             <h1>
-                <b><u>Property Taxes</u></b>
+                <b><u>Fiscal Responsibility</u></b>
             </h1>
         </div>
         <div>
-            <img className={classes.image} src={property} alt="" />
+            <img className={classes.image} src={fiscalresponsibility} alt="" />
         </div>
 				<div className={classes.text}>
 					<div>
@@ -38,10 +38,18 @@ const PropertyTaxes = () => {
 						</ol>
 					</div>
 					<div>
-							<b>All residents benefit from having a strong school system.  However, the cost of that needs to be balanced with the needs of the community and tied to objectives that will improve the quality of education for our children.</b>
+						In the State of New Jersey, if the increase to the school budget does not exceed the 2% spending cap,
+						the district is not required to obtain voter approval. However, just because this rule exists, it does not
+						mean that the budget should be increased up to the cap every year. The current methodology of the
+						existing Board members has resulted in a build up of over $8.9M in capital reserves with a current year
+						allocation of these reserves of only $256K. That is only a 2.9% allocation from the existing fund.
+						All residents benefit from having a strong school system. However, the cost of that needs to be
+						balanced with the needs of the community and tied to objectives that will improve the quality of
+						education for our children.				
 					</div>
+					<br />	
 					<div>
-							Throughout my career, I have used Lean Six Sigma and Design Thinking methodologies to help organizations create efficiencies focusing on People, Process and Technology.  By partnering with the administration, I will work to help the district realize these efficiencies related to costs but also to help focus district spending on initiatives tied to specific objectives.  Through process and technology improvements, the district can realize cost reductions and advance the district into state-of-the-art processes and tools and provide additional STEM related opportunities to the students.
+							<b>All residents benefit from having a strong school system.  However, the cost of that needs to be balanced with the needs of the community and tied to objectives that will improve the quality of education for our children.</b>
 					</div>
 				</div>
         

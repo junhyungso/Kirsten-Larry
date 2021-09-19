@@ -18,6 +18,9 @@ const NavigationBar = () => {
           <NavLink to="/Issues" activeClassName={classes.active}>
 						Issues
           </NavLink>
+          <NavLink to="/districtinformation" activeClassName={classes.active}>
+						District Information
+          </NavLink>
           <NavLink to="/contact" activeClassName={classes.active}>
 						Volunteer / Contact Us
           </NavLink>
