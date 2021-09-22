@@ -1,8 +1,8 @@
 import React from 'react';
 import classes from './DistrictInformation.module.css';
 
-import brochure1 from '../image/brochure-4.png';
-import brochure2 from '../image/brochure-5.png';
+import brochure1 from '../image/Brochure-4.png';
+import brochure2 from '../image/Brochure-5.png';
 
 
 const DistrictInformation = () => {

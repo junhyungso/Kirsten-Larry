@@ -54,7 +54,6 @@ function App() {
 						<Route path='/missionstatement'>
 							<Missionstatement />
 						</Route>
-						
 						<Route path='*'>
 							<Redirect to="/" />
 						</Route>

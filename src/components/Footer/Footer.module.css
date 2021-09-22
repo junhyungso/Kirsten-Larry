@@ -125,3 +125,14 @@
 		padding-top: 3rem;
 	}	
 }
+
+.activeImg {
+	display: block;
+	margin: auto auto;
+	height: 8rem;
+	margin-top: 5rem;
+}
+
+.textcenter {
+	text-align: center;
+}

@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import classes from './Masks.module.css';
 
-import masks from '../../image/maskss.png';
 import healthsafety from '../../image/healthsafety.png';
 const Masks = () => {
 

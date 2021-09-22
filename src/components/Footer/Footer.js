@@ -7,6 +7,8 @@ import classes from './Footer.module.css';
 import Mail from '../../image/Mail.jpg';
 import KlightPhoto from '../../image/Klight Photo (2).jpg';
 import LarryPhoto from '../../image/Larry Nastro (4).jpg';
+import facebook from '../../image/facebook.png';
+
 
 const Footer = () => {
 	const [email, setEmail] = useState('');
@@ -71,14 +73,14 @@ const Footer = () => {
 						</Link>
 				</div>
 				<div className={classes.column3}>
-					<div className={classes.row}>
-						<img className={classes.img} src={KlightPhoto} alt="klight" />
-						<img className={classes.img} src={LarryPhoto} alt="larry" />			
-					</div>
+						<a href="https://www.facebook.com/lightandnastro/" target="_blank">
+							<img src={facebook} className={classes.activeImg} alt="facebook" />
+						</a>
+						<p className={classes.textcenter}>Facebook: LightandNastro</p>
 					</div>
 			</div>
 		<div>
-				<p className={classes.centertext}>Kirstenlightforbtboe@gmail.com</p>
+				<h4 className={classes.centertext}>Kirstenlightforbtboe@gmail.com</h4>
 		</div>
 </div>
 	);

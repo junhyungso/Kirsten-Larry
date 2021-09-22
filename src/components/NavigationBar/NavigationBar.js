@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 import classes from './NavigationBar.module.css'
 
+import facebook from '../../image/facebook.png';
+
 const NavigationBar = () => {
 	return (
 
@@ -27,6 +29,9 @@ const NavigationBar = () => {
           <NavLink to="/support" activeClassName={classes.active}>
 						Support Us
           </NavLink>
+					<a href="https://www.facebook.com/lightandnastro/" target="_blank">
+						<img src={facebook} className={classes.activeImg} alt="facebook" />
+					</a>
 
         </ul>
       </nav>
