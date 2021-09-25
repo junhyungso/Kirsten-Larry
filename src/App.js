@@ -20,13 +20,12 @@ import Missionstatement from "./components/MissionStatement/MissionStatement";
 import ReactGA from 'react-ga';
 import RouteChangeTracker from "./RouteChangeTracker";
 
-const TRACKING_ID = "287665838"; // YOUR_OWN_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
 
 function App() {
+	const TRACKING_ID = "287665838"; // YOUR_OWN_TRACKING_ID
+	ReactGA.initialize(TRACKING_ID);
+
   return (
-		<>
-			<RouteChangeTracker />
 			<Router basename={process.env.PUBLIC_URL}>
 				<Layout>
 					<Switch>
@@ -69,7 +68,6 @@ function App() {
 					</Switch>
 				</Layout>
 			</Router>
-		</>
   );
 }
 
