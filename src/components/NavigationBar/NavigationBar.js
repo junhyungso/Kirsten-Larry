@@ -29,7 +29,7 @@ const NavigationBar = () => {
           <NavLink to="/support" activeClassName={classes.active}>
 						Support Us
           </NavLink>
-					<a href="https://www.facebook.com/lightandnastro/" target="_blank">
+					<a href="https://www.facebook.com/lightandnastro/" target="_blank" rel="noreferrer">
 						<img src={facebook} className={classes.activeImg} alt="facebook" />
 					</a>
 

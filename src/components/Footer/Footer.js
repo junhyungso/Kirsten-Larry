@@ -73,7 +73,7 @@ const Footer = () => {
 						</Link>
 				</div>
 				<div className={classes.column3}>
-						<a href="https://www.facebook.com/lightandnastro/" target="_blank">
+						<a href="https://www.facebook.com/lightandnastro/" target="_blank" rel="noreferrer">
 							<img src={facebook} className={classes.activeImg} alt="facebook" />
 						</a>
 						<p className={classes.textcenter}>Facebook: LightandNastro</p>
