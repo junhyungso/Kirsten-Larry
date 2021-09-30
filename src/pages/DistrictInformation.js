@@ -24,7 +24,7 @@ const DistrictInformation = () => {
 				</div>
 			</div>
 			<div className={classes.row}>
-				<a href={brochure} target="_blank" rel="noreferrer" className={classes.pdfbutton}>Open Complete Brochure</a>
+				<a href={brochure} target="_blank" rel="noreferrer" className={classes.pdfbutton}>Download Complete Brochure</a>
 			</div>
 		</div>
 	);
