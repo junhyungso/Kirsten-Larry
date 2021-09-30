@@ -38,18 +38,18 @@ const PropertyTaxes = () => {
 						</ol>
 					</div>
 					<div>
-						In the State of New Jersey, if the increase to the school budget does not exceed the 2% spending cap,
-						the district is not required to obtain voter approval. However, just because this rule exists, it does not
-						mean that the budget should be increased up to the cap every year. The current methodology of the
-						existing Board members has resulted in a build up of over $8.9M in capital reserves with a current year
-						allocation of these reserves of only $256K. That is only a 2.9% allocation from the existing fund.
-						All residents benefit from having a strong school system. However, the cost of that needs to be
-						balanced with the needs of the community and tied to objectives that will improve the quality of
-						education for our children.				
+					In the State of New Jersey, if the increase to the school budget does not exceed the 2% spending cap,
+the district is not required to obtain voter approval. However, just because this rule exists, it does not
+mean that the budget should be increased up to the cap every year. The current methodology of the
+existing Board members has resulted in a build up of over $8.9M in capital reserves with a current year
+allocation of these reserves of only $256K and maintenance reserves of $4.6M with $0 current year
+allocation.		
 					</div>
 					<br />	
 					<div>
-							<b>All residents benefit from having a strong school system.  However, the cost of that needs to be balanced with the needs of the community and tied to objectives that will improve the quality of education for our children.</b>
+							<b>All residents benefit from having a strong school system. However, the cost of that needs to be
+balanced with the needs of the community and tied to objectives that will improve the quality of
+education for our children.</b>
 					</div>
 				</div>
         

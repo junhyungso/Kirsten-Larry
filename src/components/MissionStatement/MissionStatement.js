@@ -22,9 +22,10 @@ const Missionstatement = () => {
 				<div className={classes.text}>
 				We need to take political ideology out of operating the school district. This is
 a non-partisan role that should help develop a mission statement for the
-community and to defend that against intrusions from political motivations.
-That may mean challenging the mandates by sitting State, County and Local
-leadership and being a leader in bringing proactive solutions to the table.
+community and to defend that against intrusions from political
+motivations. That may mean challenging the mandates by sitting State,
+County and Local leadership and being a leader in bringing proactive
+solutions to the table.
 				</div>
     </div>
 	);

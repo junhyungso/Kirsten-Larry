@@ -50,3 +50,35 @@
 		margin-right: auto;
 	}
 }
+
+
+.pdfbutton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3rem;
+	padding: 0.75rem;
+	text-align: center;
+	background: #004a00;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.pdfbutton:hover {
+	background: #fed966;
+}
+@media screen and (min-width: 800px) {
+	.pdfbutton {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3rem;
+		padding: 0.75rem;
+		text-align: center;
+		background: #004a00;
+		color: #ffffff;
+		text-decoration: none;
+		width: 15rem;
+		border-radius: 10px;
+	}
+}

@@ -35,7 +35,7 @@ const Masks = () => {
 Naturally, these individuals have developed a high level of antibody that is proven more effective than
 the spike protein that exists in vaccines. Based on the studies on its effectiveness, other nations are
 beginning to amend their vaccination policy requirements to factor in natural immunity, beginning with
-Israel.				
+Israel.	
 					</div>
 					<div>
 					CDC recommends “layer” prevention strategies. These strategies recommended are: (1) <b>Vaccination</b>;
@@ -86,8 +86,9 @@ flexibility for the school district to allow parents to make the decision for th
 				<div>
 				One of the opportunities that the district can avail itself of to combat the spread of viruses, not only
 currently, but in the future, is to address the CDC’s recommendation of ventilation. The district
-currently has an $8.9M capital reserve that can be employed to upgrade the districts HVAC systems,
-as recommended by the CDC, in the schools. This provides a variety of benefits:
+currently has an $8.9M capital reserve and a $4.6M maintenance reserve that can be employed to
+upgrade the districts HVAC systems, as recommended by the CDC, in the schools. This provides a
+variety of benefits:
 				</div>
 				<div>
 					<ul>
@@ -109,7 +110,7 @@ communication causing concern within the community and failure to “follow the 
 failures in guidance and communications. Due to these factors, including the most recent statistics
 evaluating the community risk, flexibility should be allowed for parents to make appropriate and
 informed decisions based on the medical needs of their children and the school district should look at
-implementing the flexibility provided by the existing CDC guidelines.
+implementing the flexibility provided by the existing N.J. Executive Order 251 and CDC guidelines.
 				</div>
 				</div>
     </div>

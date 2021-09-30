@@ -17,13 +17,7 @@ import Support from "./pages/Support";
 import Curriculum from "./components/Curriculum/Curriculum";
 import Missionstatement from "./components/MissionStatement/MissionStatement";
 
-import ReactGA from 'react-ga';
-import RouteChangeTracker from "./RouteChangeTracker";
-
-
 function App() {
-	const TRACKING_ID = "287665838"; // YOUR_OWN_TRACKING_ID
-	ReactGA.initialize(TRACKING_ID);
 
   return (
 			<Router basename={process.env.PUBLIC_URL}>

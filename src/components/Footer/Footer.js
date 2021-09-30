@@ -5,8 +5,6 @@ import axios from '../../axios';
 import classes from './Footer.module.css';
 
 import Mail from '../../image/Mail.jpg';
-import KlightPhoto from '../../image/Klight Photo (2).jpg';
-import LarryPhoto from '../../image/Larry Nastro (4).jpg';
 import facebook from '../../image/facebook.png';
 
 

@@ -20,13 +20,15 @@ const Curriculum = () => {
             <img className={classes.image} src={curriculum} alt="" />
         </div>
 				<div className={classes.text}>
+				
 					<div>
-										One of the main purposes of education is to build the next generation of
-					American citizens. Our students need to have a clear understanding of our
-					shared history, <b>good and bad</b>, but in a manner consistent with unifying our
-					nation, celebrating our shared heritage, traditions, holidays, and its
-					achievements while guiding the next generation to further improve the
-					Republic.					</div>
+					Our platform is based on the Hillsdale College 1776 Curriculum. “One of the
+main purposes of education is to build the next generation of American
+citizens. Our students need to have a clear understanding of our shared
+history, <b>good and bad</b>, but in a manner consistent with unifying our nation,
+celebrating our shared heritage, traditions, holidays, and its achievements
+while guiding the next generation to further improve the Republic.			
+					</div>
 					<br />
 					<div>
 					Education begins with reflection upon the common humanity of its students. These common
@@ -39,7 +41,7 @@ teaches them to ask, analyze and develop their own thoughts to the big questions
 					America’s foundational ideas and institutions were born of reflection and choice, not accident and
 force. It is essential that our students learn these ideas and how their country has sought to live up to
 its founding ideals. Through practice, affection, and knowledge, classical education educates citizens
-with a refined and rational love of their country.
+with a refined and rational love of their country.” ~Hillsdale College website
 					</div>
 					<br />
 					<div>
@@ -60,10 +62,10 @@ policy of the school district. These factors create a community of <b>inclusivit
 						<b>
 						Our district needs to promote and respect the diversity of thought in the classroom, natural
 intellectual curiosity, individual character development and develop critical and independent
-thinkers. We believe in equality and meritocracy for all students and that every student has the
-same opportunity to succeed with hard work and focus. We believe that parents play a special
-role in the success of their children and support their role to be involved in every step in the
-decision making for their children.
+thinkers. We believe in equality and meritocracy for all students and that every student has
+the same opportunity to succeed with hard work and focus. We believe that parents play a
+special role in the success of their children and support their role to be involved in every step
+in the decision making for their children.
 						</b>
 					</div>
 				</div>
