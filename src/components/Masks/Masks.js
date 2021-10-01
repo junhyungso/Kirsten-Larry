@@ -11,11 +11,6 @@ const Masks = () => {
 	return (
     <div>
         <div>
-            <h1>
-                <b><u>Health and Safety</u></b>
-            </h1>
-        </div>
-        <div>
             <img className={classes.image} src={healthsafety} alt="" />
         </div>
 				<div className={classes.text}>

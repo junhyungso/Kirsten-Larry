@@ -13,11 +13,6 @@ const PropertyTaxes = () => {
 	return (
     <div>
         <div>
-            <h1>
-                <b><u>Fiscal Responsibility</u></b>
-            </h1>
-        </div>
-        <div>
             <img className={classes.image} src={fiscalresponsibility} alt="" />
         </div>
 				<div className={classes.text}>

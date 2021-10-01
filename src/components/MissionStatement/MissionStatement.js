@@ -12,11 +12,6 @@ const Missionstatement = () => {
 	return (
     <div>
         <div>
-            <h1>
-                <b><u>Bernards Township Mission Statement</u></b>
-            </h1>
-        </div>
-        <div>
             <img className={classes.image} src={missionstatement} alt="" />
         </div>
 				<div className={classes.text}>

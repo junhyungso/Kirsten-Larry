@@ -11,11 +11,7 @@ const Curriculum = () => {
 
 	return (
     <div>
-        <div>
-            <h1>
-                <b><u>Health and Safety</u></b>
-            </h1>
-        </div>
+
         <div>
             <img className={classes.image} src={curriculum} alt="" />
         </div>
@@ -48,10 +44,18 @@ with a refined and rational love of their country.” ~Hillsdale College website
 					Recent mandates in New Jersey related to Social Emotional Learning and other issues arising around
 the nation due to Critical Race Theory, have caused a great deal of concern in the community. This
 diversion from the core curriculum reduces the quality of education by diverting time and resources
-away from the basics. The tenants of these programs are already being taught and experienced by
-our students and community due to the diverse make-up of Bernards Township, the commitment to
-Diversity & Inclusion by our Mayor and monitoring though the Harassment, Intimidation and Bullying
-policy of the school district. These factors create a community of <b>inclusivity</b>.
+away from the basics.
+					</div>
+					<br />
+					<div>
+					The principles of diversity and inclusion are already being taught and experienced by our students and
+community due to the broad diverse make-up of Bernards Township, the cultural interaction, the
+commitment to Diversity & Inclusion by our Mayor and monitoring though the Harassment, Intimidation
+and Bullying policy of the school district.
+					</div>
+					<br />
+					<div>
+					These factors create a community of inclusivity and mutual respect.
 					</div>
 					<br />
 					<div>
