@@ -55,7 +55,7 @@ and Bullying policy of the school district.
 					</div>
 					<br />
 					<div>
-					These factors create a community of inclusivity and mutual respect.
+					These factors create a community of <b>inclusivity</b> and <b>mutual respect</b>.
 					</div>
 					<br />
 					<div>
