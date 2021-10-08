@@ -31,7 +31,7 @@ const About = () => {
 										two children, Caeli and Jaxon. She works for <b>Ernst & Young</b> as a Senior
 										Manager in their Tax Technology and Transformation practice. Her data-driven focus is transforming organizations to be <b><i>‘right-sized’</i></b>,
 										<b><i>efficient</i></b> and <b><i>cost effective</i></b> implementing technology solutions to
-										facilitate those changes. Using Design Thinking, she develops
+										facilitate those changes. Using Design Thinking, she develops 
 										<b><i>innovative solutions</i></b> to solve budget issues. She is a licensed Certified
 										Public Accountant, a member of the AICPA and a licensed soccer coach.
 								</p>
