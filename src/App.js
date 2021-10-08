@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 import Support from "./pages/Support";
 import Curriculum from "./components/Curriculum/Curriculum";
 import Missionstatement from "./components/MissionStatement/MissionStatement";
+import Factors from './pages/Factors';
 
 function App() {
 
@@ -55,6 +56,9 @@ function App() {
 							</Route>
 							<Route path='/missionstatement'>
 								<Missionstatement />
+							</Route>
+							<Route path='/factorstoconsider'>
+								<Factors />
 							</Route>
 							<Route path='*'>
 								<Redirect to="/" />

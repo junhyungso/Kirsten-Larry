@@ -1,0 +1,84 @@
+.brochure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:1rem;
+}
+
+.row {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.column {
+	display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.column2 {
+	display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.centertext {
+	text-align: center;
+}
+.img {
+	width: 30rem;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media screen and (max-width: 800px) {
+	.column {
+		margin-top: 2rem;
+		flex: 1;
+		width: 100%;
+	}
+	.column2 {
+		margin-top: 2rem;
+		flex: 2;
+		width: 100%;
+	}
+	.img {
+		width: 15rem;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+.pdfbutton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3rem;
+	padding: 0.75rem;
+	text-align: center;
+	background: #004a00;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.pdfbutton:hover {
+	background: #fed966;
+}
+@media screen and (min-width: 800px) {
+	.pdfbutton {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3rem;
+		padding: 0.75rem;
+		text-align: center;
+		background: #004a00;
+		color: #ffffff;
+		text-decoration: none;
+		width: 15rem;
+		border-radius: 10px;
+	}
+}
