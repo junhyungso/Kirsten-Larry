@@ -17,6 +17,7 @@ import Support from "./pages/Support";
 import Curriculum from "./components/Curriculum/Curriculum";
 import Missionstatement from "./components/MissionStatement/MissionStatement";
 import Factors from './pages/Factors';
+import Misinformation from "./pages/Misinformation";
 
 function App() {
 
@@ -59,6 +60,9 @@ function App() {
 							</Route>
 							<Route path='/factorstoconsider'>
 								<Factors />
+							</Route>
+							<Route path='/correctingincumbentsmisinformation'>
+								<Misinformation />
 							</Route>
 							<Route path='*'>
 								<Redirect to="/" />

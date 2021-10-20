@@ -26,6 +26,9 @@ const NavigationBar = () => {
 					<NavLink to="/factorstoconsider" activeClassName={classes.active}>
 						Factors to Consider
           </NavLink>
+					<NavLink to="/correctingincumbentsmisinformation" activeClassName={classes.active}>
+						Correcting Incumbents Misinformation
+          </NavLink>
           <NavLink to="/contact" activeClassName={classes.active}>
 						Volunteer / Contact Us
           </NavLink>
